@@ -74,7 +74,7 @@
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](./java/tree/InOrderTraversal.java)                    | Medium     |                   | !     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](./java/recursion/ValidateBinarySearchTree.java)       | Medium     |                   | !     |
 | 101  | [symmetric-tree](https://leetcode-cn.com/problems/symmetric-tree/description/) |                                                              | Easy       | Tree              | !     |
-| 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](./java/tree/LevelOrderTraversal2.java)                | Medium     | BFS               | !?    |
+| 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](./java/tree/LevelOrderTraversal2.java)                | Medium     | BFS               | !??    |
 | 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./java/recursion/MaximumDepth.java)                   | Easy       |                   | !!!   |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Java](./java/recursion/ConstructBinaryTree.java)            | Medium     |                   | !     |
 | 108  | [Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree) |                                                              | Easy       | Tree              | ?     |
@@ -89,7 +89,7 @@
 | 123  | [Best-Time-To-Buy-And-Sell-Stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) |                                                              | Hard       |                   |       |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./java/string/ValidPalindrome.java)                   | Easy       |                   | !     |
 | 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) | [Java](./java/dfs_bfs/WordLadderTwo.java)                    | Hard       |                   | ?     |
-| 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) | [Java](./java/dfs_bfs/WordLadder.java)                       | Hard       |                   | ?     |
+| 127  | [Word-Ladder](https://leetcode-cn.com/problems/word-ladder/) | [Java](./java/dfs_bfs/WordLadder.java)                       | Hard       |                   | ??     |
 | 128  | [Longest-Consecutive-Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence) | [Java](./java/hashmap/LongestConsecutiveSequence.java)       | Hard       | HashMap           | ?     |
 | 130  | [Surrounded-Regions](https://leetcode-cn.com/problems/surrounded-regions/) | [Java](./SurroundedRegions)                                  | Medium     | Disjoint Sets     | ?     |
 | 138  | [Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [Java](./java/list/RandomPointer.java)                       | Medium     |                   | ?     |
@@ -125,6 +125,7 @@
 | 240  | [Search-A-2d-Matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/) | [Java](./java/matrix/SearchMatrix.java)                      | Medium     |                   | !     |
 | 241  | [Different-Ways-To-Add-Parentheses](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/) | [Java](./java/divde_conquer/DiffWaysToCompute.java)          | Medium     | Divide & Conquer  | ?     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | [Java](./java/hashmap/ValidAnagram.java)                     | Easy       |                   | !?    |
+| 260 | [Single-Number-iii](https://leetcode-cn.com/problems/single-number-iii/) | [Java](./java/bitwise/SingleNumber.java) | Medium | Bitwise Operation | ? |
 | 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |                                                              | Medium     |                   |       |
 | 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./java/array/MoveZeroes.java)                         | Easy       |                   | !     |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./java/recursion/Codec.java)                          | Hard       |                   | ?     |

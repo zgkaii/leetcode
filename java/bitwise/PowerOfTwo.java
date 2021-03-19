@@ -7,7 +7,12 @@ package bitwise;
  */
 public class PowerOfTwo {
     public boolean isPowerOfTwo(int n) {
-        if(n <= 0) return false;
-        return (n & (n-1)) == 0;
+        if (n <= 0)
+            return false;
+        // n & (n - 1) 消除最后一位1
+        // 1100 0011 0000 1000
+        // & 1100 0010 0000 0111
+        // 1100 0010 !=0 0000 0000 ==0
+        return (n & (n - 1)) == 0;
     }
 }

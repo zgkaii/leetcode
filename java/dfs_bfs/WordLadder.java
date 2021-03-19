@@ -1,4 +1,4 @@
-package dfs_bfs;
+package bfs_bfs;
 
 import java.util.*;
 
@@ -26,7 +26,7 @@ public class WordLadder {
         int step = 1;
         while (!startQueue.isEmpty() && !endQueue.isEmpty()) {
             // 双向广度优先遍历
-            int res = dfs(step, startQueue, endQueue, wordSet, visited);
+            int res = bfs(step, startQueue, endQueue, wordSet, visited);
             // -1表明没相遇
             if (res != -1)
                 return res;
@@ -35,7 +35,7 @@ public class WordLadder {
         return 0;
     }
 
-    private int dfs(int step, Queue<String> startQueue, Queue<String> endQueue, Set<String> wordSet,
+    private int bfs(int step, Queue<String> startQueue, Queue<String> endQueue, Set<String> wordSet,
             Set<String> visited) {
         int startCount = startQueue.size(), endCount = endQueue.size();
         boolean start = startCount <= endCount;
