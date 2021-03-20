@@ -135,7 +135,7 @@
 | 322  | [Coin-Change](https://leetcode-cn.com/problems/coin-change/)&hearts; | [Java](./java/dp/CoinChange.java)                            | Medium     | DP                | !     |
 | 328  | [Odd-Even-Linked-List](https://leetcode-cn.com/problems/odd-even-linked-list/description/) | [Java](./java/list/OddEven.java)                             | Medium     |                   | ?     |
 | 337  | [House-Robber-iii](https://leetcode-cn.com/problems/house-robber-iii/description/) | [Java](./java/tree/HouseRobberThree.java)                    | Medium     | Tree              | ?     |
-| 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/) |                                                              | Medium     |                   |       |
+| 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/)&hearts; | [Java](./java/bitwise/CountingBits.java) | Medium     | DP、Bitwise Operation | ? |
 | 363  | [Max-Sum-Of-Rectangle-No-Larger-Than-K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) |                                                              | Hard       |                   |       |
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) | [Java](./java/binarysearch/ValidPerfectSquare.java)          | Easy       |                   | !     |
 | 378  | [Kth-Smallest-Element-In-A-Sorted-Matrix/](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./java/matrix/KthSmallest.java)                       | Medium     |                   | ?     |
