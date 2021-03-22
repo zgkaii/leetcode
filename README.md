@@ -27,7 +27,9 @@
 | NO.  | Title                                                        | Solution                                                     | Difficulty | Category          | Times |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------- | ----- |
 | 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./java/hashmap/TwoSum.java)、[Python](./python/hashmap/twoSum.py)、[Go](./golang/hashmap/twosum.go) | Easy       | HashMap           | !!?   |
+| 8 | [String-To-Integer-Atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/) |  | Medium | String |  |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./java/array/MostWater.java)                          | Medium     |                   | !!    |
+| 14 | [Longest-Common-Prefix](https://leetcode-cn.com/problems/longest-common-prefix/description/) | [Java]() | Easy | String | ! |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./java/array/ThreeSum.java)                           | Medium     |                   | !?    |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](./java/divde_conquer/LetterCombinations.java)         | Medium     | Recursion         | ?     |
 | 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](./java/list/RemoveNthNode.java)                       | Medium     |                   | ?     |
@@ -53,7 +55,7 @@
 | 53   | [Maximum-Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](./java/dp/MaximumSubarray.java)                       | Easy       |                   | !?    |
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./java/greedy/JumpGame.java)                          | Medium     | Greedy            | !！   |
 | 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) | [Java](./java/sort/MergeIntervals.java)                      | Medium     |                   | !     |
-| 58   | [Length-Of-Last-Word](https://leetcode-cn.com/problems/length-of-last-word/) |                                                              | Easy       |                   |       |
+| 58   | [Length-Of-Last-Word](https://leetcode-cn.com/problems/length-of-last-word/) | [Java](./java/string/LengthOfLastWord.java) | Easy       | String | ! |
 | 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) | [Java](./java/dp/UniquePaths.java)                           | Medium     | DP                | !?    |
 | 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) | [Java](./java/dp/UniquePathsTwo.java)                        | Medium     |                   | !     |
 | 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](./java/dp/MinimumPathSum.java)                        | Medium     |                   | !     |

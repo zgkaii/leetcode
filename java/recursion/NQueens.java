@@ -1,6 +1,7 @@
 package recursion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -17,7 +18,7 @@ import java.util.List;
  *               输出：[[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
  */
 public class NQueens {
-    public List<List<String>> solveNQueens(int n) {
+    public List<List<String>> solveNQueens1(int n) {
         char[][] board = new char[n][n]; // 用二维char数组初始化棋盘
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
@@ -66,4 +67,49 @@ public class NQueens {
         }
         return list;
     }
+
+    List<List<String>> ans = new ArrayList<>();
+
+    public List<List<String>> solveNQueens(int n) {
+        int[] queens = new int[n]; // 记录每行中皇后所在的位置
+        dfs(n, 0, 0, 0, 0, queens);
+        return ans;
+    }
+
+    // col当前行，row当前列，left左上，right右上
+    public void dfs(int n, int row, int col, int left, int right, int[] queens) {
+        if (row == n) { // 回溯
+            ans.add(generateString(queens));
+            return;
+        }
+        //   0 1 2 3	col 0100   right 0010  left 1000   1110 & 1111 = 0111 
+        // 0 . . Q .    . . Q .	   . . Q .	   . . Q .     . . Q .       1 不能放置
+        // 1 . . . .    . . X .	   . X . .	   . . . X     . X X X       0 能放置
+        int bits = ((1 << n) - 1) & ~(col | left | right);
+        while (bits > 0) {
+            int pick = bits & (-bits); // 获取最低1位 0001
+            int tmp = pick, placeTmp = -1;
+            while (tmp > 0) { // 尝试在最低位放置皇后
+                tmp = tmp >> 1;
+                placeTmp++;
+            }
+            queens[row] = placeTmp;
+            // 列从左到右 -> 二进制地位到高位 故应该left右移一位 right左移1位
+            dfs(n, row + 1, col | pick, (left | pick) << 1, (right | pick) >> 1, queens);
+            bits = bits & (bits - 1); // 最低位1设置为0，回复
+        }
+    }
+
+    // 将皇后位置保存进字符串
+    public List<String> generateString(int[] queens) {
+        List<String> res = new ArrayList<>();
+        for (int i : queens) {
+            char[] chars = new char[queens.length];
+            Arrays.fill(chars, '.');
+            chars[i] = 'Q';
+            res.add(String.valueOf(chars));
+        }
+        return res;
+    }
+
 }
