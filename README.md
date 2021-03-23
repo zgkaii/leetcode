@@ -27,7 +27,7 @@
 | NO.  | Title                                                        | Solution                                                     | Difficulty | Category          | Times |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------- | ----- |
 | 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./java/hashmap/TwoSum.java)、[Python](./python/hashmap/twoSum.py)、[Go](./golang/hashmap/twosum.go) | Easy       | HashMap           | !!?   |
-| 8 | [String-To-Integer-Atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/) |  | Medium | String |  |
+| 8 | [String-To-Integer-Atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](./java/string/Atoi.java) | Medium | String | ? |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./java/array/MostWater.java)                          | Medium     |                   | !!    |
 | 14 | [Longest-Common-Prefix](https://leetcode-cn.com/problems/longest-common-prefix/description/) | [Java]() | Easy | String | ! |
 | 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./java/array/ThreeSum.java)                           | Medium     |                   | !?    |
