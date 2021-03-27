@@ -2,9 +2,8 @@
 
 ```shell
 Project Structure
-    ├── Go
-    ├── Java
-    └── Python
+├── Golang
+└── Java
 ```
 
 ##  Teaching Resources
@@ -35,41 +34,42 @@ Project Structure
 
 | NO.  | Title                                                        | Solution                                                     | Difficulty | Category          | Y&N |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ----------------- | ----- |
-| 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./java/hashmap/TwoSum.java)、[Python](./python/hashmap/twoSum.py)、[Go](./golang/hashmap/twosum.go) | Easy       | HashMap           | !!?   |
+| 1    | [Two Sum](https://leetcode-cn.com/problems/two-sum/)         | [Java](./java/hashmap/TwoSum.java)、[Go](./golang/array/twosum_test.go) | Easy       | Array      | !!!   |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Go](./golang/twopointers/Longestsubstring_test.go) | Medium | Two Pointers | ? |
 | 5 | [Longest-Palindromic-Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](./java/string/PalindromicSubstring.java) | Medium | DP | ? |
 | 8 | [String-To-Integer-Atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](./java/string/Atoi.java) | Medium | String | ? |
-| 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./java/array/MostWater.java)                          | Medium     |                   | !!    |
-| 14 | [Longest-Common-Prefix](https://leetcode-cn.com/problems/longest-common-prefix/description/) | [Java]() | Easy | String | ! |
-| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./java/array/ThreeSum.java)                           | Medium     |                   | !?    |
+| 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./java/array/MostWater.java)                          | Medium     |  | ?   |
+| 14 | [Longest-Common-Prefix](https://leetcode-cn.com/problems/longest-common-prefix/description/) | [Java]() | Easy | String | ? |
+| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./java/array/ThreeSum.java)                           | Medium     |                   | ??    |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](./java/divde_conquer/LetterCombinations.java)         | Medium     | Recursion         | ?     |
 | 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](./java/list/RemoveNthNode.java)                       | Medium     |                   | ?     |
-| 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](./java/stack/ValidParentheses.java)                   | Easy       | Stack             | !?!   |
-| 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./java/list/MergeTwoSortedLists.java)                 | Easy       |                   | !!    |
-| 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](./java/recursion/GenerateParentheses.java)            | Medium     | DFS               | !?    |
-| 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./java/list/SwapNodes.java)                           | Medium     |                   | !?    |
-| 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./java/list/ReverseNodesKGroup.java)                  | Hard       |                   | !     |
-| 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./java/array/RemoveDuplicates.java)                   | Easy       |                   | !     |
+| 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](./java/stack/ValidParentheses.java)                   | Easy       | Stack             | ??!  |
+| 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./java/list/MergeTwoSortedLists.java)                 | Easy       |                   | ?!   |
+| 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](./java/recursion/GenerateParentheses.java)            | Medium     | DFS               | ??   |
+| 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./java/list/SwapNodes.java)                           | Medium     |                   | ??   |
+| 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./java/list/ReverseNodesKGroup.java)                  | Hard       |                   | ?     |
+| 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./java/array/RemoveDuplicates.java)                   | Easy       |                   | ?    |
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |                                                              | Hard       |                   |       |
-| 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](./java/binarysearch/RotatedSortedArray.java)          | Medium     |                   | !     |
+| 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](./java/binarysearch/RotatedSortedArray.java)          | Medium     |                   | ?    |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) | [Java](./java/array/ValidSudoku.java)                        | Medium     |                   | ?     |
 | 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) | [Java](./java/recursion/ValidSudokuTwo.java)                 | Hard       |                   | ?     |
 | 39   | [Combination-Sum](https://leetcode-cn.com/problems/combination-sum/) |                                                              | Medium     |                   |       |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)&hearts; | [Java](./java/stack/TrappingRainWater.java)                  | Hard       | Stack、DP         | !?    |
 | 44 | [Wildcard-Matching](https://leetcode-cn.com/problems/wildcard-matching/) | [Java](./java/dp/WildcardMatching.java) | Hard | DP | ? |
-| 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) | [Java](./java/greedy/JumpGameTwo.java)                       | Hard       |                   | !     |
+| 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) | [Java](./java/greedy/JumpGameTwo.java)                       | Hard       |                   | ?    |
 | 46   | [Permutations](https://leetcode-cn.com/problems/permutations/) | [Java](./java/recursion/Permutations.java)                   | Medium     |                   | ?     |
 | 47   | [Permutations II](https://leetcode-cn.com/problems/permutations-ii/) | [Java](./java/recursion/PermutationsTwo.java)                | Medium     |                   | ?     |
 | 49   | [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | [Java](./java/hashmap/GroupAnagrams.java)                    | Medium     | HashMap           | !?    |
-| 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           | [Java](./java/divde_conquer/Powxn.java)                      | Medium     |                   | !     |
+| 50   | [PowX-N](https://leetcode-cn.com/problems/powx-n/)           | [Java](./java/divde_conquer/Powxn.java)                      | Medium     |                   | ?    |
 | 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       | [Java](./java/recursion/NQueens.java)                        | Hard       | Backtracking      | ?     |
 | 52   | [N-Queens-ii](https://leetcode-cn.com/problems/n-queens-ii/description/) |                                                              | Hard       |                   |       |
 | 53   | [Maximum-Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](./java/dp/MaximumSubarray.java)                       | Easy       |                   | !?    |
-| 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./java/greedy/JumpGame.java)                          | Medium     | Greedy            | !！   |
-| 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) | [Java](./java/sort/MergeIntervals.java)                      | Medium     |                   | !     |
+| 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./java/greedy/JumpGame.java)                          | Medium     | Greedy            | ?！  |
+| 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) | [Java](./java/sort/MergeIntervals.java)                      | Medium     |                   | ?    |
 | 58   | [Length-Of-Last-Word](https://leetcode-cn.com/problems/length-of-last-word/) | [Java](./java/string/LengthOfLastWord.java) | Easy       | String | ! |
 | 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) | [Java](./java/dp/UniquePaths.java)                           | Medium     | DP                | !?    |
-| 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) | [Java](./java/dp/UniquePathsTwo.java)                        | Medium     |                   | !     |
-| 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](./java/dp/MinimumPathSum.java)                        | Medium     |                   | !     |
+| 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) | [Java](./java/dp/UniquePathsTwo.java)                        | Medium     |                   | ?    |
+| 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](./java/dp/MinimumPathSum.java)                        | Medium     |                   | ?    |
 | 66   | [Plus One](https://leetcode-cn.com/problems/plus-one/)       | [Java](./java/array/PlusOne.java)                            | Easy       |                   | !?    |
 | 69   | [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)             | [Java](./java/binarysearch/SqrtX.java)                       | Easy       |                   | !     |
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./java/dp/ClimbingStairs.java)                        | Easy       |                   | !!!   |
@@ -83,12 +83,12 @@ Project Structure
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./java/stack/LargestRectangle.java)                   | Hard       | Stack             | !?    |
 | 85   | [Maximal-Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/) |                                                              | Hard       |                   |       |
 | 91   | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | [Java](./java/dp/DecodeWays.java)                            | Medium     | DP                | ?     |
-| 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./java/array/MergeSortedArray.java)                   | Easy       |                   | !!    |
+| 88   | [Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](./java/array/MergeSortedArray.java)                   | Easy       |                   | ?!   |
 | 94   | [Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](./java/tree/InOrderTraversal.java)                    | Medium     |                   | !     |
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](./java/recursion/ValidateBinarySearchTree.java)       | Medium     |                   | !     |
 | 101  | [symmetric-tree](https://leetcode-cn.com/problems/symmetric-tree/description/) |                                                              | Easy       | Tree              | !     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](./java/tree/LevelOrderTraversal2.java)                | Medium     | BFS               | !??    |
-| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./java/recursion/MaximumDepth.java)                   | Easy       |                   | !!!   |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./java/recursion/MaximumDepth.java)                   | Easy       |                   | ?!!  |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Java](./java/recursion/ConstructBinaryTree.java)            | Medium     |                   | !     |
 | 108  | [Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree) |                                                              | Easy       | Tree              | ?     |
 | 109  | [Convert-Sorted-List-To-Binary-Search-Tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/) | [Java](./java/tree/ConvertSortedList.java)                   | Medium     | Tree              | ?     |
@@ -141,7 +141,7 @@ Project Structure
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | [Java](./java/hashmap/ValidAnagram.java)                     | Easy       |                   | !?    |
 | 260 | [Single-Number-iii](https://leetcode-cn.com/problems/single-number-iii/) | [Java](./java/bitwise/SingleNumber.java) | Medium | Bitwise Operation | ? |
 | 279  | [Perfect-Squares](https://leetcode-cn.com/problems/perfect-squares/) |                                                              | Medium     |                   |       |
-| 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./java/array/MoveZeroes.java)                         | Easy       |                   | !     |
+| 283  | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](./java/array/MoveZeroes.java)                         | Easy       |                   | ?    |
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Java](./java/recursion/Codec.java)                          | Hard       |                   | ?     |
 | 300  | [Longest-Increasing-Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Java](./java/dfs_bfs/LongestIncreasingSubsequence.java)     | Medium     | Binary Search     | ?     |
 | 309  | [Best-Time-To-Buy-And-Sell-Stock-With-Cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |                                                              | Medium     |                   |       |
@@ -192,15 +192,15 @@ Project Structure
 | 818  | [Race-Car](https://leetcode-cn.com/problems/race-car/)       |                                                              | Hard       |                   |       |
 | 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) | [Java](./java/greedy/LemonadeChange.java)                    | Easy       |                   | !     |
 | 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | [Java](./java/greedy/WalkingRobot.java)                      | Easy       |                   | !     |
-| 980  | [Unique Paths III](https://leetcode-cn.com/problems/unique-paths-iii/) | [Java](./java/dfs_bfs/UniquePathsThree.java)                 | Hard       | DFS               | ?     |
+| 980  | [Unique Paths III](https://leetcode-cn.com/problems/unique-paths-iii/) | [Java](./java/dfs_bfs/UniquePathsThree.java)                 | Hard       | DFS               | ?   |
 | 1091 | [Shortest-Path-In-Binary-Matrix](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) |                                                              | Medium     |                   |       |
 | 1122 | [Relative-Sort-Array](https://leetcode-cn.com/problems/relative-sort-array/) |                                                              | Easy       |                   |       |
-| 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) | [Java](./java/dp/CommonSubsequence.java)                     | Medium     |                   | !     |
+| 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) | [Java](./java/dp/CommonSubsequence.java)                     | Medium     |                   | ?    |
 | 1277 | [Count-Square-Submatrices-With-All-Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/) | [Java](./java/dp/SquareSubmatrices.java)                     | Medium     | DP                | ?     |
 
 
 ## 剑指Offer
-| No. | Title                                                        | Solution                                                | Difficulty | Category         | Times |
+| No. | Title                                                        | Solution                                                | Difficulty | Category         | Y&N |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------- | ---------- | ---------------- | ----- |
 | 51         | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [Java](./leetcode/java/divde_conquer/ReversePairs.java) | Hard       | Divide & Conquer | ?     |
 
