@@ -124,7 +124,7 @@ Project Structure
 | 191  | [Number-Of-1-Bits](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](./java/bitwise/NumberOfOneBits.java)                  | Easy       | Bitwise Operation | ?     |
 | 198  | [House-Robber](https://leetcode-cn.com/problems/house-robber/) | [Java](./java/dp/HouseRobber.java)                           | Medium     |                   | !     |
 | 200  | [Number Of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Java](./java/dfs_bfs/NumberOfIslands.java)                  | Medium     |                   | !     |
-| 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./java/list/ReverseLinkedList.java)                   | Easy       |                   | !?    |
+| 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./java/list/ReverseLinkedList.java)、[Go](./golang/list/reverseilist_test.go) | Easy       | List | !?!   |
 | 208  | [Implement-Trie-Prefix-Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [Java](java/trie/Trie.java)                                  | Medium     | Trie              | ?     |
 | 212  | [Word-Search-ii](https://leetcode-cn.com/problems/word-search-ii/) |                                                              | Hard       | Trie              |       |
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |                                                              | Medium     |                   |       |
