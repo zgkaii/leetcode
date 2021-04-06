@@ -47,7 +47,7 @@ Project Structure
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](./java/stack/ValidParentheses.java)                   | Easy       | Stack             | ??!  |
 | 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./java/list/MergeTwoSortedLists.java)                 | Easy       |                   | ?!   |
 | 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](./java/recursion/GenerateParentheses.java)            | Medium     | DFS               | ??   |
-| 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./java/list/SwapNodes.java)                           | Medium     |                   | ??   |
+| 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./java/list/SwapNodes.java)                           | Medium     |                   | ???   |
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./java/list/ReverseNodesKGroup.java)                  | Hard       |                   | ?     |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./java/array/RemoveDuplicates.java)                   | Easy       |                   | ?    |
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |                                                              | Hard       |                   |       |
