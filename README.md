@@ -1,7 +1,7 @@
 ## Project Structure
 
 ```shell
-Project Structure
+LeetCode
 ├── Golang
 └── Java
 ```
@@ -76,6 +76,7 @@ Project Structure
 | 70   | [Climbing-Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](./java/dp/ClimbingStairs.java)                        | Easy       |                   | !!!   |
 | 72   | [Edit Distance](https://leetcode.com/problems/edit-distance/)&hearts; | [Java](./java/dp/EditDistance.java)                          | Hard       | DP                | ?     |
 | 74   | [Search-A-2d-Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Java](./java/binarysearch/Matrix.java)                      | Medium     |                   | !     |
+| 75 | [Sort-Colors](https://leetcode-cn.com/problems/sort-colors/) | [Java](./java/array/SortColors.java) | Medium | Array | ! |
 | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |                                                              | Hard       |                   |       |
 | 77   | [Combinations](https://leetcode-cn.com/problems/combinations/) | [Java](./java/recursion/Combinations.java)                   | Medium     |                   | ?     |
 | 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         | [Java](./java/divde_conquer/Subsets.java)                    | Medium     |                   | ?     |
