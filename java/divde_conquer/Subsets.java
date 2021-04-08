@@ -7,26 +7,23 @@ import java.util.List;
  * @Author: Mr.Z
  * @DateTime: 2021/01/29 13:54
  * @Description: 78. 子集 https://leetcode-cn.com/problems/subsets/
- *               <p>
- *               给你一个整数数组 nums ，数组中的元素 互不相同 。返回该数组所有可能的子集（幂集）。解集不能包含重复的子集。
- *               <p>
- *               输入：nums = [1,2,3] 输出：[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
- *               <p>
- *               输入：nums = [1] 输出：[[],[1]]
  */
 public class Subsets {
 
     // https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
-    ArrayList<Integer> t = new ArrayList<>();
+    List<Integer> tmp = new ArrayList<>();
     ArrayList<List<Integer>> ans = new ArrayList<>();
 
+    /**
+     * 位运算
+     */
     public List<List<Integer>> subsets1(int[] nums) {
         int n = nums.length;
         for (int mask = 0; mask < (1 << n); mask++) {
-            t.clear();
+            tmp.clear();
             for (int i = 0; i < n; ++i) {
                 if ((mask & (1 << i)) != 0) {
-                    t.add(nums[i]);
+                    tmp.add(nums[i]);
                 }
             }
             ans.add(new ArrayList<Integer>());
@@ -34,19 +31,26 @@ public class Subsets {
         return ans;
     }
 
-    public List<List<Integer>> subsets2(int[] nums) {
-        dfs(0, nums);
+    /**
+     * 回溯法
+     */
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        // 深度优先搜索
+        backtrack(nums, new ArrayList<Integer>(), ans, 0);
         return ans;
     }
 
-    public void dfs(int cur, int[] nums) {
-        if (cur == nums.length) {
-            ans.add(new ArrayList<Integer>(t));
+    public void backtrack(int[] nums, List<Integer> tmp, List<List<Integer>> ans, int start) {
+        if (nums.length == start) {
+            // 当前位的tmp子集直接加入ans中，一开始为空集
+            ans.add(new ArrayList<>(tmp));
             return;
         }
-        t.add(nums[cur]);
-        dfs(cur + 1, nums);
-        t.remove(t.size() - 1);
-        dfs(cur + 1, nums);
+        tmp.add(nums[start]);
+        backtrack(nums, tmp, ans, start + 1);
+        // 取消当前位的选择，下一轮循环重新选择一次当前位
+        tmp.remove(tmp.size() - 1);
+        backtrack(nums, tmp, ans, start + 1);
     }
 }

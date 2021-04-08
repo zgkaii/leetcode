@@ -79,7 +79,7 @@ LeetCode
 | 75 | [Sort-Colors](https://leetcode-cn.com/problems/sort-colors/) | [Java](./java/array/SortColors.java) | Medium | Array | ! |
 | 76   | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |                                                              | Hard       |                   |       |
 | 77   | [Combinations](https://leetcode-cn.com/problems/combinations/) | [Java](./java/recursion/Combinations.java)                   | Medium     |                   | ?     |
-| 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         | [Java](./java/divde_conquer/Subsets.java)                    | Medium     |                   | ?     |
+| 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         | [Java](./java/divde_conquer/Subsets.java)                    | Medium     |   Backtracking              | ??     |
 | 79   | [Word-Search](https://leetcode-cn.com/problems/word-search/) | [Java](./java/dfs_bfs/WordSearch.java)                       | Medium     | DFS               | ？    |
 | 83   | [Remove-Duplicates-From-Sorted-List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](./java/list/RemoveDuplicates.java)                    | Easy       |                   | !     |
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./java/stack/LargestRectangle.java)                   | Hard       | Stack             | !?    |
