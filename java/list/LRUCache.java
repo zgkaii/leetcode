@@ -7,18 +7,21 @@ import java.util.Map;
  * @Author: Mr.Z
  * @DateTime: 2021/01/19 21:39
  * @Description: 146. LRU 缓存机制 https://leetcode-cn.com/problems/lru-cache/
- * <p>
- * LRU是Least Recently Used的缩写，即最近最少使用，是一种常用的页面置换算法，选择最近最久未使用的页面予以淘汰。
- * 该算法赋予每个页面一个访问字段，用来记录一个页面自上次被访问以来所经历的时间t，当须淘汰一个页面时，选择现有页面中其t值最大的，即最近最少使用的页面予以淘汰。
- * <p>
- * LRUCache cache = new LRUCache(2);
- * cache.put(1, 1);     // cache = [(1, 1)]
- * cache.put(2, 2);     // cache = [(2, 2), (1, 1)]
- * cache.get(1);        // 返回 1 cache = [(1, 1), (2, 2)]
- * cache.put(3, 3);     // cache = [(3, 3), (1, 1)]
  **/
 public class LRUCache {
+    /**
+     * LRU是Least Recently Used的缩写，即最近最少使用，是一种常用的页面置换算法，选择最近最久未使用的页面予以淘汰。
+     * 该算法赋予每个页面一个访问字段，用来记录一个页面自上次被访问以来所经历的时间t，当须淘汰一个页面时，选择现有页面中其t值最
+     * 大的，即最近最少使用的页面予以淘汰。
+     */
+
+    /**
+     * 链表容量
+     */
     private int capacity;
+    /**
+     * 链表节点数量
+     */
     private int size;
     private DLinkedNode head, tail;
     private Map<Integer, DLinkedNode> cache = new HashMap<>();
