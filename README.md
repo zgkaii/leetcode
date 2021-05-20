@@ -68,6 +68,7 @@ LeetCode
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./java/greedy/JumpGame.java)                          | Medium     | Greedy            | ?！  |
 | 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) | [Java](./java/sort/MergeIntervals.java)                      | Medium     |                   | ?    |
 | 58   | [Length-Of-Last-Word](https://leetcode-cn.com/problems/length-of-last-word/) | [Java](./java/string/LengthOfLastWord.java) | Easy       | String | ! |
+| 59 | [Spiral-Matrix-ii](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [Java](./java/matrix/SpiralMatrix.java) | Medium | Matrix |  |
 | 62   | [Unique-Paths](https://leetcode-cn.com/problems/unique-paths/) | [Java](./java/dp/UniquePaths.java)                           | Medium     | DP                | !?    |
 | 63   | [Unique-Paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/) | [Java](./java/dp/UniquePathsTwo.java)                        | Medium     |                   | ?    |
 | 64   | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](./java/dp/MinimumPathSum.java)                        | Medium     |                   | ?    |
@@ -127,6 +128,7 @@ LeetCode
 | 200  | [Number Of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Java](./java/dfs_bfs/NumberOfIslands.java)                  | Medium     |                   | !     |
 | 206  | [Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](./java/list/ReverseLinkedList.java)、[Go](./golang/list/reverseilist_test.go) | Easy       | List | !?!   |
 | 208  | [Implement-Trie-Prefix-Tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [Java](java/trie/Trie.java)                                  | Medium     | Trie              | ?     |
+| 209 | [Minimum-Size-Subarray-Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [Java](./java/array/MinSubArray.java) | Medium | Array | ? |
 | 212  | [Word-Search-ii](https://leetcode-cn.com/problems/word-search-ii/) |                                                              | Hard       | Trie              |       |
 | 213  | [House-Robber-ii](https://leetcode-cn.com/problems/house-robber-ii/description/) |                                                              | Medium     |                   |       |
 | 217  | [Contains-Duplicate](https://leetcode-cn.com/problems/contains-duplicate/description/) | [Java](./java/hashmap/ContainsDuplicate.java)                | Easy       | HashMap           | !     |
@@ -184,6 +186,7 @@ LeetCode
 | 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Java](./java/tree/LongestUnivaluePath.java)                 | Medium     | Tree              |       |
 | 671  | [Second Minimum Node In a Binary Tree](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) |                                                              | Easy       | Tree              | ?     |
 | 687  | [Longest Univalue Path](https://leetcode-cn.com/problems/longest-univalue-path/) |                                                              | Medium     |                   |       |
+| 704 | [Binary-Search](https://leetcode-cn.com/problems/binary-search/) | [Java](./java/binarysearch/BinarySearch.java) | Easy | Binary Search | ! |
 | 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |                                                              | Easy       |                   |       |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |                                                              | Medium     |                   |       |
 | 725  | [Split-Linked-List-In-Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts) | [Java](./java/list/SplitListToParts.java)                    | Medium     |                   | ?     |
