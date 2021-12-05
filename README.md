@@ -55,7 +55,7 @@ LeetCode
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](./java/binarysearch/RotatedSortedArray.java)          | Medium     |                   | ?    |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) | [Java](./java/array/ValidSudoku.java)                        | Medium     |                   | ?     |
 | 37   | [Sudoku-Solver](https://leetcode-cn.com/problems/sudoku-solver/) | [Java](./java/recursion/ValidSudokuTwo.java)                 | Hard       |                   | ?     |
-| 39   | [Combination-Sum](https://leetcode-cn.com/problems/combination-sum/) |                                                              | Medium     |                   |       |
+| 39   | [Combination-Sum](https://leetcode-cn.com/problems/combination-sum/) | [Java](./java/dfs_bfs/CombinationSum.java) | Medium     | DFS | ? |
 | 42   | [Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)&hearts; | [Java](./java/stack/TrappingRainWater.java)                  | Hard       | Stack、DP         | !?    |
 | 44 | [Wildcard-Matching](https://leetcode-cn.com/problems/wildcard-matching/) | [Java](./java/dp/WildcardMatching.java) | Hard | DP | ? |
 | 45   | [Jump-Game-ii](https://leetcode-cn.com/problems/jump-game-ii/) | [Java](./java/greedy/JumpGameTwo.java)                       | Hard       |                   | ?    |
@@ -158,8 +158,9 @@ LeetCode
 | 338  | [Counting-Bits](https://leetcode-cn.com/problems/counting-bits/)&hearts; | [Java](./java/bitwise/CountingBits.java) | Medium     | DP、Bitwise Operation | ? |
 | 363  | [Max-Sum-Of-Rectangle-No-Larger-Than-K](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/) |                                                              | Hard       |                   |       |
 | 367  | [Valid-Perfect-Square](https://leetcode-cn.com/problems/valid-perfect-square/) | [Java](./java/binarysearch/ValidPerfectSquare.java)          | Easy       |                   | !     |
-| 378  | [Kth-Smallest-Element-In-A-Sorted-Matrix/](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./java/matrix/KthSmallest.java)                       | Medium     |                   | ?     |
 | 403  | [Frog Jump](https://leetcode-cn.com/problems/frog-jump/)     | [Java](./java/dp/FrogJump.java)                              | Hard       | DP                | ?     |
+| 378  | [Kth-Smallest-Element-In-A-Sorted-Matrix/](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Java](./java/matrix/KthSmallest.java)                       | Medium     |                   | ?     |
+| 383 | [Ransom-Note](https://leetcode-cn.com/problems/ransom-note/) | [Java](./java/string/RansomNote.java) | Easy | String | ? |
 | 404  | [Sum-Of-Left-Leaves](https://leetcode-cn.com/problems/sum-of-left-leaves/description/) |                                                              | Easy       | Tree              | !     |
 | 410  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) |                                                              | Hard       |                   |       |
 | 429  | [N-Ary-Tree-Level-Order-Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java](./java/tree/NLevelOrderTraversal.java)                | Medium     |                   | !     |
@@ -190,7 +191,7 @@ LeetCode
 | 687  | [Longest Univalue Path](https://leetcode-cn.com/problems/longest-univalue-path/) |                                                              | Medium     |                   |       |
 | 704 | [Binary-Search](https://leetcode-cn.com/problems/binary-search/) | [Java](./java/binarysearch/BinarySearch.java) | Easy | Binary Search | ! |
 | 707 | [Design-LinkedList](https://leetcode-cn.com/problems/design-linked-list/) |  | Medium | List |  |
-| 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) |                                                              | Easy       |                   |       |
+| 709  | [To-Lower-Case](https://leetcode-cn.com/problems/to-lower-case/) | [Java](./java/string/ToLowerCase.java) | Easy       | String | ? |
 | 712  | [Best-Time-To-Buy-And-Sell-Stock-With-Transaction-Fee](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |                                                              | Medium     |                   |       |
 | 725  | [Split-Linked-List-In-Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts) | [Java](./java/list/SplitListToParts.java)                    | Medium     |                   | ?     |
 | 739  | [DailyTemperatures](https://leetcode-cn.com/problems/daily-temperatures/) | [Java](./java/stack/DailyTemperatures.java)                  | Medium     | Stack             | ?     |
@@ -201,6 +202,7 @@ LeetCode
 | 860  | [Lemonade-Change](https://leetcode-cn.com/problems/lemonade-change) | [Java](./java/greedy/LemonadeChange.java)                    | Easy       |                   | !     |
 | 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | [Java](./java/greedy/WalkingRobot.java)                      | Easy       |                   | !     |
 | 980  | [Unique Paths III](https://leetcode-cn.com/problems/unique-paths-iii/) | [Java](./java/dfs_bfs/UniquePathsThree.java)                 | Hard       | DFS               | ?   |
+| 1005 | [Maximize-Sum-Of-Array-After-K-Negations](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) | [Java](./java/array/MaximizeSumOfArray.java) | Easy | Array | ? |
 | 1091 | [Shortest-Path-In-Binary-Matrix](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) |                                                              | Medium     |                   |       |
 | 1122 | [Relative-Sort-Array](https://leetcode-cn.com/problems/relative-sort-array/) |                                                              | Easy       |                   |       |
 | 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) | [Java](./java/dp/CommonSubsequence.java)                     | Medium     |                   | ?    |
