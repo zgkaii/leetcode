@@ -41,16 +41,16 @@ LeetCode
 | 8 | [String-To-Integer-Atoi](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](./java/string/Atoi.java) | Medium | String | ? |
 | 11   | [Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](./java/array/MostWater.java)、[Go](./golang/twopointers/mostwater_test.go) | Medium     | Two Pointers | ??  |
 | 14 | [Longest-Common-Prefix](https://leetcode-cn.com/problems/longest-common-prefix/description/) | [Java]() | Easy | String | ? |
-| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./java/array/ThreeSum.java)                           | Medium     |                   | ??    |
+| 15   | [3Sum](https://leetcode-cn.com/problems/3sum/)               | [Java](./java/array/ThreeSum.java)                           | Medium     | Two Pointers | ??    |
 | 16 | [3Sum-Closest](https://leetcode-cn.com/problems/3sum-closest/) | [Go](./golang/twopointers/sum3closet_test.go) | Medium | Two Pointers | ? |
 | 17   | [Letter-Combinations-Of-A-Phone-Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](./java/divde_conquer/LetterCombinations.java)         | Medium     | Recursion         | ?     |
-| 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](./java/list/RemoveNthNode.java)                       | Medium     |                   | ?     |
+| 19   | [Remove-Nth-Node](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](./java/list/RemoveNthNode.java)                       | Medium     | Two Pointers | ?!    |
 | 20   | [Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](./java/stack/ValidParentheses.java)                   | Easy       | Stack             | ??!  |
-| 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./java/list/MergeTwoSortedLists.java)                 | Easy       |                   | ?!   |
+| 21   | [Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](./java/list/MergeTwoSortedLists.java)                 | Easy       | Recursion | ?!   |
 | 22   | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](./java/recursion/GenerateParentheses.java)            | Medium     | DFS               | ??   |
 | 24   | [Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](./java/list/SwapNodes.java)                           | Medium     |                   | ???   |
 | 25   | [Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](./java/list/ReverseNodesKGroup.java)                  | Hard       |                   | ?     |
-| 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./java/array/RemoveDuplicates.java)                   | Easy       |                   | ?    |
+| 26   | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](./java/array/RemoveDuplicates.java)                   | Easy       | Two Pointers | ?!   |
 | 32   | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) |                                                              | Hard       |                   |       |
 | 33   | [Search-In-Rotated-Sorted-Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](./java/binarysearch/RotatedSortedArray.java)          | Medium     |                   | ?    |
 | 36   | [Valid-Sudoku](https://leetcode-cn.com/problems/valid-sudoku/description/) | [Java](./java/array/ValidSudoku.java)                        | Medium     |                   | ?     |
@@ -142,7 +142,7 @@ LeetCode
 | 234  | [Palindrome-Linked-List](https://leetcode-cn.com/problems/palindrome-linked-list/) | [Java](./java/list/PalindromeLinkedList.java)                | Easy       |                   | !     |
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](./java/recursion/LowestCommonAncestor.java)           | Medium     |                   | !     |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](./java/queue/SlidingWindowMaximum.java)               | Hard       |                   | !     |
-| 240  | [Search-A-2d-Matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/) | [Java](./java/matrix/SearchMatrix.java)                      | Medium     |                   | !     |
+| 240  | [Search-A-2d-Matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/) | [Java](./java/matrix/SearchMatrix.java)                      | Medium     | Line search | !     |
 | 241  | [Different-Ways-To-Add-Parentheses](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/) | [Java](./java/divde_conquer/DiffWaysToCompute.java)          | Medium     | Divide & Conquer  | ?     |
 | 242  | [Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/) | [Java](./java/hashmap/ValidAnagram.java)                     | Easy       |                   | !?    |
 | 260 | [Single-Number-iii](https://leetcode-cn.com/problems/single-number-iii/) | [Java](./java/bitwise/SingleNumber.java) | Medium | Bitwise Operation | ? |
@@ -203,6 +203,7 @@ LeetCode
 | 874  | [Walking-Robot-Simulation](https://leetcode-cn.com/problems/walking-robot-simulation) | [Java](./java/greedy/WalkingRobot.java)                      | Easy       |                   | !     |
 | 980  | [Unique Paths III](https://leetcode-cn.com/problems/unique-paths-iii/) | [Java](./java/dfs_bfs/UniquePathsThree.java)                 | Hard       | DFS               | ?   |
 | 1005 | [Maximize-Sum-Of-Array-After-K-Negations](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) | [Java](./java/array/MaximizeSumOfArray.java) | Easy | Array | ? |
+| 1034 | [Coloring-A-Border](https://leetcode-cn.com/problems/coloring-a-border/) | [Java](./java/dfs_bfs/ColorBorder.java) | Medium | DFS / BFS | ? |
 | 1091 | [Shortest-Path-In-Binary-Matrix](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/) |                                                              | Medium     |                   |       |
 | 1122 | [Relative-Sort-Array](https://leetcode-cn.com/problems/relative-sort-array/) |                                                              | Easy       |                   |       |
 | 1143 | [Longest-Common-Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) | [Java](./java/dp/CommonSubsequence.java)                     | Medium     |                   | ?    |
@@ -212,6 +213,7 @@ LeetCode
 ## 剑指Offer
 | No. | Title                                                        | Solution                                                | Difficulty | Category         | Y&N |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------- | ---------- | ---------------- | ----- |
+| 26 | [树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | [Java](./java/tree/SubStructure.java) | Medium | Recursion | ? |
 | 51         | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [Java](./leetcode/java/divde_conquer/ReversePairs.java) | Hard       | Divide & Conquer | ?     |
 
 

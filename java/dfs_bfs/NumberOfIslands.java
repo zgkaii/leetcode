@@ -6,8 +6,8 @@ package dfs_bfs;
  * @Description: 200. 岛屿数量 https://leetcode-cn.com/problems/number-of-islands/
  **/
 public class NumberOfIslands {
-    int[] dx = {-1, 1, 0, 0};
-    int[] dy = {0, 0, -1, 1};
+    int[] dx = { -1, 1, 0, 0 };
+    int[] dy = { 0, 0, -1, 1 };
     char[][] g;
 
     public int numIslands(char[][] grid) {
