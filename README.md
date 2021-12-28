@@ -66,6 +66,7 @@ LeetCode
 | 51   | [N-Queens](https://leetcode-cn.com/problems/n-queens/)       | [Java](./java/recursion/NQueens.java)                        | Hard       | Backtracking      | ?     |
 | 52   | [N-Queens-ii](https://leetcode-cn.com/problems/n-queens-ii/description/) |                                                              | Hard       |                   |       |
 | 53   | [Maximum-Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](./java/dp/MaximumSubarray.java)                       | Easy       |                   | !?    |
+| 54 | [Spiral-Matrix](https://leetcode-cn.com/problems/spiral-matrix/) |  | Medium | |  |
 | 55   | [Jump-Game](https://leetcode-cn.com/problems/jump-game/)     | [Java](./java/greedy/JumpGame.java)                          | Medium     | Greedy            | ?！  |
 | 56   | [Merge-Intervals](https://leetcode-cn.com/problems/merge-intervals/) | [Java](./java/sort/MergeIntervals.java)                      | Medium     |                   | ?    |
 | 58   | [Length-Of-Last-Word](https://leetcode-cn.com/problems/length-of-last-word/) | [Java](./java/string/LengthOfLastWord.java) | Easy       | String | ! |
@@ -83,7 +84,7 @@ LeetCode
 | 77   | [Combinations](https://leetcode-cn.com/problems/combinations/) | [Java](./java/recursion/Combinations.java)                   | Medium     |                   | ?     |
 | 78   | [Subsets](https://leetcode-cn.com/problems/subsets/)         | [Java](./java/divde_conquer/Subsets.java)                    | Medium     |   Backtracking              | ??     |
 | 79   | [Word-Search](https://leetcode-cn.com/problems/word-search/) | [Java](./java/dfs_bfs/WordSearch.java)                       | Medium     | DFS               | ？    |
-| 83   | [Remove-Duplicates-From-Sorted-List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](./java/list/RemoveDuplicates.java)                    | Easy       |                   | !     |
+| 83   | [Remove-Duplicates-From-Sorted-List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/description/) | [Java](./java/list/RemoveDuplicates.java)                    | Easy       |  | !！    |
 | 84   | [Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](./java/stack/LargestRectangle.java)                   | Hard       | Stack             | !?    |
 | 85   | [Maximal-Rectangle](https://leetcode-cn.com/problems/maximal-rectangle/) |                                                              | Hard       |                   |       |
 | 91   | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | [Java](./java/dp/DecodeWays.java)                            | Medium     | DP                | ?     |
@@ -92,17 +93,18 @@ LeetCode
 | 98   | [Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](./java/recursion/ValidateBinarySearchTree.java)       | Medium     |                   | !     |
 | 101  | [symmetric-tree](https://leetcode-cn.com/problems/symmetric-tree/description/) |                                                              | Easy       | Tree              | !     |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](./java/tree/LevelOrderTraversal2.java)                | Medium     | BFS               | !??    |
-| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./java/recursion/MaximumDepth.java)                   | Easy       |                   | ?!!  |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](./java/recursion/MaximumDepth.java)                   | Easy       | Recursion | ?!!! |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Java](./java/recursion/ConstructBinaryTree.java)            | Medium     |                   | !     |
 | 108  | [Convert Sorted Array to Binary Search Tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree) |                                                              | Easy       | Tree              | ?     |
 | 109  | [Convert-Sorted-List-To-Binary-Search-Tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/) | [Java](./java/tree/ConvertSortedList.java)                   | Medium     | Tree              | ?     |
-| 110  | [Balanced-Binary-Tree](https://leetcode-cn.com/problems/balanced-binary-tree/description/) |  [Java](./java/tree/BalanceBinaryTree.java)                                                         | Easy       | Tree              | !?     |
+| 110  | [Balanced-Binary-Tree](https://leetcode-cn.com/problems/balanced-binary-tree/description/) |  [Java](./java/tree/BalanceBinaryTree.java)                                                         | Easy       | Tree              | !??    |
 | 111  | [Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Java](./java/recursion/MinimumDepth.java)                   | Easy       | Tree              | !?    |
-| 112  | [Path-Sum](https://leetcode-cn.com/problems/path-sum)        |                                                              | Easy       | Tree              | ?     |
+| 112  | [Path-Sum](https://leetcode-cn.com/problems/path-sum)        |                                                              | Easy       | DFS           | ?     |
+| 113 | [Path-Sum-2](https://leetcode-cn.com/problems/path-sum-ii/) | [Java](./java/dfs_bfs/PathSum.java) | Medium | DFS | ? |
 | 115  | [Distinct-subsequences](https://leetcode-cn.com/problems/distinct-subsequences/) |                                                              | Hard       |                   |       |
 | 120  | [Triangle](https://leetcode-cn.com/problems/triangle/description/) | [Java](./java/dp/Triangle.java)                              | Medium     |                   | !     |
-| 121  | [Best-Time-To-Buy-And-Sell-Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) |                                                              | Easy       |                   |       |
-| 122  | [Best-Time-To-Buy-And-Sell-Stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Java](./java/greedy/BuyAndSellStock.java)                   | Easy       |                   | !     |
+| 121  | [Best-Time-To-Buy-And-Sell-Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./java/dp/BuyAndSellStock.java) | Easy       | DP | ! |
+| 122  | [Best-Time-To-Buy-And-Sell-Stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Java](./java/greedy/BuyAndSellStock.java)                   | Easy       | DP、Greedy | !?    |
 | 123  | [Best-Time-To-Buy-And-Sell-Stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) |                                                              | Hard       |                   |       |
 | 125  | [Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](./java/string/ValidPalindrome.java)                   | Easy       |                   | !     |
 | 126  | [Word-Ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii/description/) | [Java](./java/dfs_bfs/WordLadderTwo.java)                    | Hard       |                   | ?     |
@@ -140,7 +142,7 @@ LeetCode
 | 231  | [Power-Of-Two](https://leetcode-cn.com/problems/power-of-two/) | [Java](./java/bitwise/PowerOfTwo.java)                       | Easy       | Bitwise Operation | ?     |
 | 232  | [Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/description/) | [Java](./java/stack/MyQueue.java)                            | Easy       | Stack             | !     |
 | 234  | [Palindrome-Linked-List](https://leetcode-cn.com/problems/palindrome-linked-list/) | [Java](./java/list/PalindromeLinkedList.java)                | Easy       |                   | !     |
-| 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](./java/recursion/LowestCommonAncestor.java)           | Medium     |                   | !     |
+| 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](./java/recursion/LowestCommonAncestor.java)           | Medium     | Recursion | !?   |
 | 239  | [Sliding Window Maximum](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](./java/queue/SlidingWindowMaximum.java)               | Hard       |                   | !     |
 | 240  | [Search-A-2d-Matrix-ii](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/description/) | [Java](./java/matrix/SearchMatrix.java)                      | Medium     | Line search | !     |
 | 241  | [Different-Ways-To-Add-Parentheses](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/) | [Java](./java/divde_conquer/DiffWaysToCompute.java)          | Medium     | Divide & Conquer  | ?     |
@@ -175,7 +177,7 @@ LeetCode
 | 518  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [Java](./java/dp/CoinChangeTwo.java)                         | Medium     | DP                | ?     |
 | 529  | [Minesweeper](https://leetcode-cn.com/problems/minesweeper/) | [Java](./java/dfs_bfs/Minesweeper.java)                      | Medium     |                   | !     |
 | 535  | [Encode-And-Decode-Tinyurl](https://leetcode-cn.com/problems/encode-and-decode-tinyurl) | [Java](./java/hashmap/DecodeTinyurl.java)                    | Medium     | HashMap           | ?     |
-| 543  | [Diameter-Of-Binary-Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/description/) |                                                              | Easy       | Tree              | ?     |
+| 543  | [Diameter-Of-Binary-Tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/description/) |                                                              | Easy       | Tree              | ??    |
 | 552  | [Student-Attendance-Record-ii](https://leetcode-cn.com/problems/student-attendance-record-ii/) |                                                              | Hard       |                   |       |
 | 566  | [Reshape-The-Matrix](https://leetcode-cn.com/problems//description/) | [Java](./java/matrix/ReshapeTheMatrix.java)                  | Easy       |                   | ?     |
 | 572  | [Subtree-Of-Another-Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/description/) |                                                              | Easy       | Tree              |       |
@@ -213,8 +215,12 @@ LeetCode
 ## 剑指Offer
 | No. | Title                                                        | Solution                                                | Difficulty | Category         | Y&N |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------- | ---------- | ---------------- | ----- |
-| 26 | [树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | [Java](./java/tree/SubStructure.java) | Medium | Recursion | ? |
+| 13 | [机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | [Java](./java/dfs_bfs/MovingCount.java) | Medium | Recursion | ? |
+| 26 | [树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | [Java](./java/tree/SubStructure.java) | Medium | Recursion | ?? |
+| 36 | [二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) |  | Medium |  |  |
+| 46 | [把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | [Java](./java/dp/TranslateNum.java) | Medium | DP | ? |
 | 51         | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [Java](./leetcode/java/divde_conquer/ReversePairs.java) | Hard       | Divide & Conquer | ?     |
+| 64 | [求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/) | [Java](./java/recursion/SumNums.java) | Medium | Recursion | ? |
 
 
 > ! --- success ;  ? --- failure .
